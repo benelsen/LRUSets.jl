@@ -35,6 +35,7 @@ using LRUSets
     )
 
     @test s isa LRUSet{Int}
+    @test eltype(LRUSet{Int}) === Int
     push!(s, 1)
     @test issetequal(values(s), [1, 42, 10])
 
