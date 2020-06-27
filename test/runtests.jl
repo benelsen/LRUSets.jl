@@ -46,4 +46,7 @@ using LRUSets
     push!(s, UInt64(84))
     push!(s, UInt8(255))
     @test issetequal(values(s), [UInt64(84), UInt8(255)])
+
+    @test issetequal([s...], [UInt64(84), UInt8(255)])
+
 end
