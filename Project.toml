@@ -1,0 +1,7 @@
+name = "LRUSets"
+uuid = "ff082ee3-ea1d-4d29-9fc3-4b2250d01a79"
+authors = ["Ben Elsen <mail@benelsen.com"]
+version = "0.1.0"
+
+[compat]
+julia = "1.4"
